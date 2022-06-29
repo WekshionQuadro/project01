@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    color: white;
+    background-color: #242424;
+    font-family: 'Manrope', sans-serif;
+}
+.content h1{
+    font-size: 35px;
+}
+.basic_information h1 {
+    font-size: 60px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+.basic_information h2{
+    margin-top: 60px;
+    font-size: 35px;
+}
+h3 {
+    font-size: 27px;
+}
+.personality h4, .paranormal h4 {
+    font-size: 22px;
+}
+.personality h5 {
+    font-size: 19px;
+    margin-bottom: 0;
+}
+p {
+    font-size: 18px;
+}
+
+.first_name_table, .second_name_table, .third_name_table {
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.w_first_name_table, .w_second_name_table, .w_third_name_table ,.w_fourth_name_table{
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.first_surname_table, .second_surname_table, .third_surname_table {
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.personality img {
+    width: 750px;
+    height: 500px;
+}
