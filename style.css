@@ -3,7 +3,8 @@ html, body {
     color: white;
     background-color: #242424;
     font-family: 'Manrope', sans-serif;
-    margine-left: 15px
+    margin-left: 15px;
+    line-height: 1.2;
 }
 .content h1{
     font-size: 35px;
@@ -24,14 +25,33 @@ h3 {
 .personality h4, .paranormal h4 {
     font-size: 22px;
 }
-.personality h5 {
+.personality h5, .equipment h5 {
     font-size: 19px;
     margin-bottom: 0;
+}
+.equipment h6  {
+    font-size: 17px;
+    margin: 10px 0;
+}
+.description {
+    color: #47a6b3;
+}
+.subject {
+    color: #4cad45;
+}
+.price {
+    color: #bec44b;
+    margin-top: 0;
+}
+.EMFtext {
+    margin-top: 0;
 }
 p {
     font-size: 18px;
 }
-
+.equipment p {
+    font-size: 15px;
+}
 .first_name_table, .second_name_table, .third_name_table {
     float: left;
     margin: 0 20px 0 20px;
@@ -47,4 +67,11 @@ p {
 .personality img {
     width: 750px;
     height: 500px;
+}
+.equipment {
+    display: flex;
+}
+.detectorEMF {
+    float: left;
+    width: 250px;
 }
