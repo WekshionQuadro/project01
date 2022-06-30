@@ -3,6 +3,7 @@ html, body {
     color: white;
     background-color: #242424;
     font-family: 'Manrope', sans-serif;
+    margine-left: 10px
 }
 .content h1{
     font-size: 35px;
